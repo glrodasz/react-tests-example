@@ -1,5 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+
+import Button from './components/Button'
 
 function App() {
   return (
@@ -17,6 +19,7 @@ function App() {
         >
           Learn React
         </a>
+        <Button onClick={() => alert("clicked")}>Let's Go!</Button>
       </header>
     </div>
   );

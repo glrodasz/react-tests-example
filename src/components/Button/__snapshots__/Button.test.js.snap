@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[ components / Button ] #structure when \`color\` prop is \`blue\` should render correctly 1`] = `
+<button
+  className="mt-2 relative bg-blue-500 text-white py-4 px-10 rounded text-2xl font-bold overflow-visible"
+  onClick={[Function]}
+>
+  button
+</button>
+`;
+
+exports[`[ components / Button ] #structure when \`color\` prop is \`yellow\` should render correctly 1`] = `
+<button
+  className="mt-2 relative bg-yellow-500 text-white py-4 px-10 rounded text-2xl font-bold overflow-visible"
+  onClick={[Function]}
+>
+  button
+</button>
+`;
+
+exports[`[ components / Button ] #structure when default props are provided should render correctly 1`] = `
+<button
+  className="mt-2 relative bg-red-500 text-white py-4 px-10 rounded text-2xl font-bold overflow-visible"
+  onClick={[Function]}
+>
+  button
+</button>
+`;
