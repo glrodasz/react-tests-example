@@ -18,6 +18,10 @@ exports[`[ components / Button ] #structure when \`color\` prop is \`yellow\` sh
 </button>
 `;
 
+exports[`[ components / Button ] #structure when \`isVisible\` prop is \`false\` should render correctly 1`] = `null`;
+
+exports[`[ components / Button ] #structure when \`isVisible\` prop is \`flase\` should render correctly 1`] = `null`;
+
 exports[`[ components / Button ] #structure when default props are provided should render correctly 1`] = `
 <button
   className="mt-2 relative bg-red-500 text-white py-4 px-10 rounded text-2xl font-bold overflow-visible"

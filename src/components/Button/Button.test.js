@@ -34,10 +34,10 @@ describe("[ components / Button ]", () => {
       });
     });
 
-    describe("when `color` prop is `yellow`", () => {
+    describe("when `isVisible` prop is `false`", () => {
       it("should render correctly", () => {
         // given
-        const props = { color: "yellow" };
+        const props = { isVisible: false };
 
         // when
         const tree = renderer
@@ -59,9 +59,11 @@ describe("[ components / Button ]", () => {
 
         // when
         wrapper.simulate("click");
+        // wrapper.setProps({ color: 'blue'})
 
         // then
         expect(onClickMock).toHaveBeenCalledTimes(1);
+        // expect(wrapper.find('button').hasClass(/bg-red-500/)).toBe(true)
       });
     });
   });
